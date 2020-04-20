@@ -11,7 +11,7 @@ div.header ul {
 }
 
 div.header li {
-  float: left;
+  float: left;  
 }
 
 div.header li a  {
@@ -26,6 +26,8 @@ div.header li a  {
 div.header li a:hover {
   background-color: #111;
 }
+
+
 
 #cvphoto {
   display:block;
@@ -42,4 +44,13 @@ div.header li a:hover {
   background-color:SlateBlue;
   color: white;
   text-align: center;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+a:visited {
+  color: hotpink;
 }
