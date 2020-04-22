@@ -1,0 +1,113 @@
+body {
+  background-color: #016FB9;
+}
+
+.flex-container {
+  display: flex;
+  background-color:  #016FB9;
+  justify-content: space-between;
+  border:1px solid rgba(0, 0, 0, 0.8);
+}
+
+.flex-container > div {
+  background-color: #FF9505;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.grid-header {
+	display: flex;
+	background-color: #016FB9;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #659BDB;
+  padding: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-auto-rows: 1fr*/
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item > img {
+ object-fit: cover;
+  min-height: 100%;
+  width: 100%;
+}
+
+.grid-container > .grid-header > a {
+	font-size: 25px;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #659BDB;
+}
+
+img {
+	display: block;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #016FB9;
+   color: white;
+   text-align: center;
+
+}
+
+/* Attempt to show text when hovering images, text was appearing outside of image border */
+
+/*.Description {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  visibility: hidden;
+}
+
+.grid-item:hover .Description {
+	visibility: visible;	
+	opacity: 1;
+}
+
+figure {
+  margin: 0;
+  position: relative
+}*/
+
+.video-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-column-gap: 10px;
+}
+
+.video-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
