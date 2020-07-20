@@ -59,8 +59,6 @@ window.onload = function startChange() {
     }
   }
 
-  
-
   function hoverImagesFlexBoxItem() {
     let photoItem = document.getElementById("flexbox-item-2");
     photoItem.addEventListener("mouseover", ImagesFlexBoxChanging,false);
@@ -76,7 +74,6 @@ window.onload = function startChange() {
     let photoItem = document.getElementById("flexbox-item-2");
     photoItem.style.color = "black";
   }
-
 
 
 function justALogMessage() {

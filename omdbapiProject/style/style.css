@@ -1,0 +1,14 @@
+body {
+	background-color: #50546E;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color: DodgerBlue;
+}
+
+p {
+	font-size:20px;
+}
