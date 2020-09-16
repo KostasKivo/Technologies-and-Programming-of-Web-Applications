@@ -1,5 +1,8 @@
+
+
 body {
 	background-color: #50546E;
+	margin:0;
 }
 
 .flex-container {
@@ -7,8 +10,45 @@ body {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	background-color: DodgerBlue;
+
 }
 
 p {
 	font-size:20px;
+}
+
+
+#container {
+	background-color:#6F33BF;
+	margin:auto;
+	padding:10px;
+	align-content: center;
+}
+
+#container > h1  {
+	text-align: center;
+	margin: : 20px;
+}
+
+#searchbar {
+	text-align: center;
+	
+}
+
+#searchbar > input {
+	margin-bottom: 1%;
+}
+
+hr {
+	border-top: 3px solid black;
+}
+
+#results {
+	align-content: center;
+	text-align: center;
+}
+
+br {
+   display: block;
+   margin: 3px 0;
 }
