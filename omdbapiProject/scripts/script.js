@@ -4,7 +4,7 @@ function getanswer(q) {
 		url: "https://www.omdbapi.com/?s="+q+"&apikey=6ff8e449",
 		success: function(data) {
 			var movieurl = "https://www.imdb.com/title/" + data.Search[0].imdbID ;
-			document.getElementById('results').innerHTML="<h1>" +data.Search[0].Title+ "</h1><br><img src = '"+data.Search[0].Poster+"'/> <br><p> Year Released: " + data.Search[0].Year+ "</p><br><p> IMDB page: <a href ="+movieurl+" target ='_blank'>" + data.Search[0].imdbID + "</a></p>";
+			document.getElementById('results').innerHTML="<h1>" +data.Search[0].Title+ "</h1><br><img src = '"+data.Search[0].Poster+"'/> <br><p> Year Released: " + data.Search[0].Year+ "</p><br><p> <a href ="+movieurl+" target ='_blank'>" + "IMDB page" + "</a></p>";
 			window.scrollTo(0,document.body.scrollHeight);
 		}
 

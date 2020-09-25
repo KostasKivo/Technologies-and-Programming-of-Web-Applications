@@ -1,7 +1,7 @@
 
 
 body {
-	background-color: #50546E;
+	background-color: #55B1F7;
 	margin:0;
 }
 
@@ -9,7 +9,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	background-color: DodgerBlue;
+	background-color: #4A0C61;
 
 }
 
@@ -50,5 +50,5 @@ hr {
 
 br {
    display: block;
-   margin: 3px 0;
+   margin: 0px 0;
 }
