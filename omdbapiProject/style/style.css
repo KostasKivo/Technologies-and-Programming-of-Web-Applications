@@ -52,3 +52,11 @@ br {
    display: block;
    margin: 0px 0;
 }
+
+.login-input {
+	margin:20px;
+}
+
+#login-button {
+	margin:19px;
+}
